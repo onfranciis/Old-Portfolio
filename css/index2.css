@@ -1,0 +1,45 @@
+.typewriter-effect {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+  }
+  
+  .typewriter-effect > .text {
+    max-width: 0;
+    animation: typing 2s steps(var(--characters)) 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    font: 1em sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  /*
+  .typewriter-effect:after {
+    content: " |";
+    animation: blink 1s infinite;
+    animation-timing-function: step-end;
+    font: 1em sans-serif;
+    font-size: 20px;
+  }
+  */
+  @keyframes typing {
+    75%,
+    100% {
+      max-width: calc(var(--characters) * 0.9ch);
+    }
+  }
+  
+  @keyframes blink {
+    0%,
+    75%,
+    100% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+  }

@@ -1,0 +1,393 @@
+html{
+    overflow-y: scroll !important;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bobz Type;
+    src: url("../resources/fonts/Bobz\ Type.ttf");
+  }
+
+@font-face {
+    font-family: Heavy Data;
+    src: url("../resources/fonts/heavy_data.ttf");
+  }
+
+body{
+    min-height: 100%;
+    background-color: rgb(0, 18, 53);
+    font: 1em sans-serif;
+}
+
+#bg-color{
+    height: auto;
+    width: 100%;
+    background-image: url("../resources/Logo.png");
+}
+
+#navbar{
+    padding: 5px;
+}
+
+#navbar a{
+    font-weight: bold;
+    color: orange;
+}
+
+#navbar a:hover{
+    color: rgb(68, 216, 80);
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.modal{
+    width: calc(100% + 10px);
+}
+
+.modal-open{
+    padding-right: 0px !important;
+}
+
+#modal-header{
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+}
+
+#modal-body{
+    height:100px;
+}
+
+#exampleModalLabel{
+    color: rgb(0, 50, 151);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.nav-modal-content{
+    width: 100%;
+     background-color: rgb(68, 216, 80);
+     border-color: rgb(0, 50, 151);
+     border-width: 5px;
+     border-style: solid;
+     border-radius: 15px;
+     padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+#tel{
+    height: 30px;
+    width: 90%;
+    background-color: rgb(94, 94, 94);
+    border-right: black 5px solid;
+    border-radius: 1px;
+    margin-left: 30px;
+    position: relative;
+}
+
+#tel-span{
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+}
+
+#tel-image{
+    position: absolute;
+    margin: -5px 0 0 -20px;
+}
+
+#tel-text{
+    margin: 5px 0 0 10%;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#mail{
+    height: 30px;
+    width: 90%;
+    background-color: rgb(94, 94, 94);
+    border-left: black 5px solid;
+    border-right: black 10px solid;
+    border-radius: 1px;
+    margin: 10px 0 20px 20px;
+    position: relative;
+}
+
+#mail-span{
+    height: 50px;
+    width: 90%;
+}
+
+#mail-image{
+    position: absolute;
+    margin: -10px 0 0 95%;
+}
+
+#mail-text{
+    margin: 5px 0 0 auto;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+#connect-body{
+    height: auto;
+    width: 200px;
+    margin: auto;
+}
+
+#credit-body{
+    height: auto;
+    width: 200px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#credit-body a{
+    color: rgb(0, 50, 151);
+}
+
+#top-image{
+    height: 350px;
+    width: 100%;
+    background-color: #00F151;
+    position: relative;
+}
+
+#logo{
+    font-size: 20px;
+    background-color: rgb(0, 18, 53);
+    color: rgb(68, 216, 80);
+    font-weight: bold;
+    padding: 2px 0 2px 0;
+    margin: 5px 0 0 5px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+#logo-text{
+    height: 100px;
+    width: 100px;
+    color: rgb(0, 18, 53);
+    background: transparent;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 0;
+}
+
+#logo-text-o{
+    font-size: 100px;
+    font-family: Bobz Type;
+    position: absolute;
+}
+
+#logo-text-f{
+    font-size: 40px;
+    margin: 25px 0 0 30px;
+    position: absolute;
+    font-family: Heavy Data;
+}
+
+
+#nomen{
+    height: 200px;
+    width: 65%;
+    background-color: transparent;
+    font-size: 60px;
+    line-height: 65px;
+    position: absolute;
+    margin: 3% 0 0 20px;
+}
+
+#name{
+    color: rgb(0, 18, 53);
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.nomen-footer{
+    font-size: 1px;
+    margin: -5px 0 0 7px;
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    text-align: justify;
+}
+
+#about-image{
+    margin: -80px 0 30px -40px;
+}
+
+
+#about-header{
+    width:100%;
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    text-shadow: black 1px 1px 1px;
+    font-size: 30px;
+    color: rgb(36, 175, 48);
+    border-radius: 5px;
+
+}
+
+#about-body{
+    color: white;
+    height: auto;
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+
+#project{
+    height: auto;
+    width: 100%;
+    text-align: justify;
+}
+
+.limit{
+    background-color: transparent;
+    height:330px;
+}
+
+#project-image{
+    margin: -40px 0 500px -40px;
+    background-color: transparent;
+
+}
+
+#project-header{
+    width:100%;
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    text-shadow: black 1px 1px 1px;
+    font-size: 30px;
+    color: rgb(36, 175, 48);
+    border-radius: 5px;
+
+}
+
+#project-body{
+    color: white;
+    height: auto;
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+#project-body-extra{
+    display: none;
+}
+
+#project-body-extra-image{
+    margin-top: -3px;
+}
+
+#project-body-extra a{
+    background-color: #00F151;
+    color: rgb(187, 121, 0);
+    text-shadow: black 0px 0px 1px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 3px 7px 3px 3px;
+}
+
+#skills{
+    margin-top: 20px;
+}
+
+#skills-header{
+    width:60%;
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    text-shadow: black 1px 1px 1px;
+    font-size: 30px;
+    color: rgb(36, 175, 48);
+    border-radius: 5px;
+    margin: 0 auto 20px auto;
+}
+
+.skills-item{
+    padding-bottom: 30px;
+}
+
+.skills-text{
+    color: white;
+    margin-left: 40px;
+}
+
+#progress-bar1{
+    background-color: brown;
+}
+
+#progress-bar2{
+    background-color: rgb(204, 65, 0);
+}
+
+#progress-bar3{
+    background-color: seagreen;
+}
+
+#progress-bar4{
+    background-color: rgb(154, 0, 192);
+}
+
+#progress-bar5{
+    background-color: rgb(134, 154, 173);
+}
+
+#progress-bar6{
+    background-color: rgb(0, 83, 179);
+}
+
+#resume{
+    width: 100%;
+    margin: 50px auto 50px auto;
+    padding: 15px;
+    background-color: rgb(221, 50, 50);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+}
+
+#file-size{
+    color: black;
+    font-size: 10px;
+}
+
+#footer{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(255, 166, 0);
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
